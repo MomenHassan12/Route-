@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css
+    " rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+
+<body class="bg-black">
+    <section id="home">
+        <div class="container">
+            <div id="sideNav" class="z-50 fixed flex flex-row w-[300px] bg-black top-0  h-screen left-[-244px]">
+                <div class="nav-contnet  flex flex-col justify-between p-7">
+                    <div class="links  text-white  flex flex-col gap-4 ">
+                        <a href="#" id="searchBtn">Search</a>
+                        <a href="#" id="CategoriesBtn">Categories</a>
+                        <a href="#" id="areaBtn">Area</a>
+                        <a href="#" id="ingredientsBtn">Ingredients</a>
+                        <a href="#" id="contactBtn">Contact Us</a>
+                    </div>
+                    <div class="copyRights flex flex-col text-white ">
+                        <div class="social-links">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h5>Copyright Â© 2019 All Rights Reserved.</h5>
+
+                    </div>
+
+                </div>
+                <div class="nav-option  bg-white flex flex-col py-7 px-1 justify-between">
+                    <img src="./img/logo.png" class="max-w-12" alt="logo">
+                    <i id="open-close-icon" class="fa-solid cursor-pointer fa-2x fa-align-justify"></i>
+                    <div>
+                        <i class="fa-solid fa-globe "></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div id="data" class=" h-screen mx-20 my-10">
+            <div class="container h-full">
+                <div id="searchInputs" class="flex flex-row flex-wrap  gap-4  justify-center ">
+
+
+                </div>
+                <div id="dataBody" class="flex flex-row flex-wrap gap-2 mt-5 justify-center items-center h-full">
+
+
+                </div>
+
+                <div class="  loading flex  relative justify-center items-center top-0 bottom-0 right-0 left-0">
+                    <span class="loader"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
