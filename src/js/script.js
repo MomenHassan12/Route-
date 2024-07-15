@@ -53,7 +53,10 @@ function displayRandomMeal(arr) {
     document.getElementById('dataBody').innerHTML = cartona
 
 }
-getRandomMeal()
+document.addEventListener("DOMContentLoaded", function () {
+    getRandomMeal()
+
+});
 
 searchBtn.addEventListener('click', function () {
     showSearchInputs();
