@@ -50,5 +50,11 @@ h1{
 #submitBtn{
     
 align-self: center;}
+button:disabled {
+    opacity: 0.6 !important; /* Reduce opacity */
+    cursor: not-allowed !important; /* Change cursor to indicate not interactive */
+    /* Adjust other styles as needed */
+}
+
 }
 

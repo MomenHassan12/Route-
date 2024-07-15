@@ -183,7 +183,7 @@ function displayArea(arr) {
 
     for (let i = 0; i < arr.length; i++) {
         cartoona += `<div onclick="getAreaMeals('${arr[i].strArea}')" class=" item sm:w-1/2 md:w-1/3 lg:w-[24%] cursor-pointer rounded text-white flex flex-col justify-center items-center">
-        <img src="./img/6.webp" alt="home">                
+        <img src="./src/img/6.webp" alt="home">                
         <h3>${arr[i].strArea}</h3>                   
                     </div>`
 
