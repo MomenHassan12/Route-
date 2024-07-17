@@ -34,7 +34,7 @@ $('#open-close-icon').click(function () {
 async function getRandomMeal() {
     $(".loading").fadeOut(1)
 
-    let respone = await fetch(`https:www.themealdb.com/api/json/v1/1/search.php?s=`)
+    let respone = await fetch(`https:www.themealdb.com/api/json/v1/1/search.php?s=Sushi`)
     let data = await respone.json();
     console.log(data.meals)
     displayRandomMeal(data.meals)
